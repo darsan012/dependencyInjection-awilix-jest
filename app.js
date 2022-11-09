@@ -1,24 +1,12 @@
-import express from 'express';
-import dotenv from 'dotenv';
-import cors from 'cors';
-import 'colors';
-import healthCheck from './src/router/healthCheck.js'
-import {connectDB} from './src/config/db.js'
-import { registerDependency } from './src/config/dependency.js';
-import userRouter from './src/router/userRoute.js';
-dotenv.config();
+import Server from './server.js';
 
-connectDB().then(()=>{
-    //regestering the dependencies
-    registerDependency();
+const PORT = process.env.PORT||8081;
+
+const server = new Server(PORT);
+server.run(PORT);
+
+process.on('unhandledRejection',(err)=>{
+    console.log(`Server closed due to unhandled rejection ${err}`.red);
+    server.stop();
+    process.exit();
 })
-const app = express();
-
-app.use(express.json());
-app.use(cors());
-
-app.use("/",healthCheck);
-app.use("/",userRouter);
-
-
-export default app;
