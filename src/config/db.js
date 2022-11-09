@@ -7,9 +7,9 @@ const connectDB =async ()=>{
     await connectMongooseDB();
 }
 
-const connectMongooseDB = async()=>{
+const connectMongooseDB = ()=>{
     const mongoUri = process.env.MONGO_URL;
-    const dbConnection = await mongoose.connect(mongoUri);
+    const dbConnection =  mongoose.connect(mongoUri);
     _dbConnection = dbConnection;
     registerUserModel(dbConnection);
     console.log(`Connected to the DB:${dbConnection.connection.name}`.cyan.underline.bold);
