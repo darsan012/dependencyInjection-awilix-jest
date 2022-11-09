@@ -5,6 +5,7 @@ import 'colors';
 import healthCheck from './src/router/healthCheck.js'
 import {connectDB} from './src/config/db.js'
 import { registerDependency } from './src/config/dependency.js';
+import userRouter from './src/router/userRoute.js';
 dotenv.config();
 
 connectDB().then(()=>{
@@ -16,7 +17,8 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-app.use("/",healthCheck)
+app.use("/",healthCheck);
+app.use("/",userRouter);
 
 
 export default app;

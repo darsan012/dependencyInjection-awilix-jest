@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "dev": "export NODE_ENV=development && nodemon server.js",
-    "start": "export NODE_ENV=development && node server.js",
+    "start": "export NODE_ENV=development && nodemon server.js",
     "prod": "export NODE_ENV=production &&  node server.js"
   },
   "dependencies": {

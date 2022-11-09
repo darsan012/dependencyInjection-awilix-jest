@@ -2,7 +2,7 @@ import userSchemas from "../schemas/userSchema.js";
 
 let _userModel = null;
 
-const registerUserModel = (dbConnection)=>{
+const registerUserModel = async (dbConnection)=>{
     _userModel = dbConnection.model("User", userSchemas);
 }
 
