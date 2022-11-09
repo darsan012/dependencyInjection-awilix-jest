@@ -6,8 +6,7 @@ class MongoService{
             try {
                 const email = req.query.email;
                 const repo = container.resolve("MongodbRepository");
-                const [err , data] = await repo.findByEmail(email);
-                if(err) throw new Error(err);
+                const data = await repo.findByEmail(email);
                 return resolve(data);
             } catch (error) {
                 // console.log(error)

@@ -1,10 +1,12 @@
 import MongoService from '../data/service/mongoService.js'
+import { createErrorMessage, createSuccessMessage } from '../utils/responseHandler.js';
+
 const getUser = async (req,res)=>{
     try {
         const response = await MongoService.findByEmail(req);
-        return res.status(200).json(response);
+        return createSuccessMessage({data:response,statusCode:200,res});
     } catch (error) {
-        return res.status(401).json(error.message);
+        return createErrorMessage({data:null, statusCode:error.statusCode,res});
     }
 }
 

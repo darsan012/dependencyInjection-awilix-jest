@@ -13,7 +13,7 @@ class MongoDataSource extends MongoDataSourceBase {
    async findByEmail(email) {
     return new Promise(async (resolve,reject) => {
       try {
-        const response = await this.UserModel.find({email}).lean();
+        const response = await this.UserModel.findOne({email}).lean();
         return resolve(response);
       } catch (e) {
         console.error(e.message);
