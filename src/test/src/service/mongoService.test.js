@@ -3,11 +3,10 @@ import { container } from "../../../config/dependency";
 import { MongodbRepository } from "../../../repository/mongoDBRepository";
 import "dotenv/config";
 import {MongoDataSourceMock} from "../../mock/implemantation/MongoDataSource.mock";
-import { MongoServiceMock } from "../../mock/implemantation/mongoService.mock";
 
 describe("mongoservice test",()=>{
     beforeEach(()=>{
-        MongoServiceMock.mockClear();
+        // MongoServiceMock.mockClear();
         container.register({
             MongoDataSource:awilix.asClass(MongoDataSourceMock).singleton(),
             MongodbRepository:awilix.asClass(MongodbRepository).singleton(),
