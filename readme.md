@@ -3,6 +3,7 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
+[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -145,7 +146,7 @@ Don't forget to give the project a star! Thanks again!
 Darshan Gautam - [@LinkedIn](https://www.linkedin.com/in/darshan-gautam-886393226)
                - [@email](dsrsangautam@gmail.com) 
 
-Project Link: [https://github.com/darsan012/repo_name](https://github.com/darsan012/repo_name)
+Project Link: [https://github.com/darsan012/dependencyInjection-awilix-jest](https://github.com/darsan012/dependencyInjection-awilix-jest)
 
 
 
@@ -163,12 +164,14 @@ Some of the links where you can learn more about jest,awilix and this amazing te
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[contributors-shield]: https://img.shields.io/github/contributors/darsan012/dependencyInjection-awilix-jest.svg?style=for-the-badge
+[contributors-url]: https://github.com/darsan012/dependencyInjection-awilix-jest/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/darsan012/dependencyInjection-awilix-jest.svg?style=for-the-badge
+[forks-url]: https://github.com/darsan012/dependencyInjection-awilix-jest/network/members
+[stars-shield]: https://img.shields.io/github/license/darsan012/dependencyInjection-awilix-jest.svg?style=for-the-badge
+[stars-url]: https://github.com/darsan012/dependencyInjection-awilix-jest/stargazers
+[license-shield]: https://img.shields.io/github/license/darsan012/dependencyInjection-awilix-jest.svg?style=for-the-badge
+[license-url]: https://github.com/darsan012/dependencyInjection-awilix-jest/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/darshan-gautam-886393226
 [product-screenshot]: images/screenshot.png
@@ -176,5 +179,3 @@ Some of the links where you can learn more about jest,awilix and this amazing te
 [Node-url]: https://nodejs.org/
 [Express.js]: https://img.shields.io/badge/express.js%20-14.svg
 [Express-url]: https://expressjs.com/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
