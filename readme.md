@@ -31,9 +31,9 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#installation">Operation and testing</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -45,7 +45,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 There are many great dependency injection examples; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a simple template that uses awilix, node, express and mongoDB.
 
@@ -83,7 +83,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Below is an example of how you can make this ready to run._
 
 1. Switch to node version 14
    ```sh
@@ -95,19 +95,18 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 3. Create .env by copying from .env.public
 
+### Operation and testing
 
+_Below is an example of how you can run and test this project._
 
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+1. To run this project
+   ```sh
+   npm run dev
+   ```
+2. To test this project
+   ```sh
+   npm run test
+   ```
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -174,7 +173,7 @@ Some of the links where you can learn more about jest,awilix and this amazing te
 [license-url]: https://github.com/darsan012/dependencyInjection-awilix-jest/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/darshan-gautam-886393226
-[product-screenshot]: images/screenshot.png
+<!-- [product-screenshot]: images/screenshot.png -->
 [Node.js]: https://img.shields.io/badge/node.js%20-14-brightgreen.svg
 [Node-url]: https://nodejs.org/
 [Express.js]: https://img.shields.io/badge/express.js%20-14.svg
