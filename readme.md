@@ -31,7 +31,7 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
-        <li><a href="#installation">Operation and testing</a></li>
+        <li><a href="#Operation and testing">Operation and testing</a></li>
       </ul>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
