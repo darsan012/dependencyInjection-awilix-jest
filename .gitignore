@@ -1,4 +1,3 @@
 node_modules/
-dependencyInjection-awilix-jest
 config/config.env
 .env
