@@ -142,8 +142,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Darshan Gautam - [@LinkedIn](https://www.linkedin.com/in/darshan-gautam-886393226)
-               - [@email](dsrsangautam@gmail.com) 
+Darshan Gautam - [@LinkedIn](https://www.linkedin.com/in/darshan-gautam-886393226) - dsrsangautam@gmail.com
 
 Project Link: [https://github.com/darsan012/dependencyInjection-awilix-jest](https://github.com/darsan012/dependencyInjection-awilix-jest)
 
