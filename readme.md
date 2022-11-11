@@ -168,7 +168,7 @@ Some of the links where you can learn more about jest,awilix and this amazing te
 [contributors-url]: https://github.com/darsan012/dependencyInjection-awilix-jest/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/darsan012/dependencyInjection-awilix-jest.svg?style=for-the-badge
 [forks-url]: https://github.com/darsan012/dependencyInjection-awilix-jest/network/members
-[stars-shield]: https://img.shields.io/github/license/darsan012/dependencyInjection-awilix-jest.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/darsan012/dependencyInjection-awilix-jest.svg?style=for-the-badge
 [stars-url]: https://github.com/darsan012/dependencyInjection-awilix-jest/stargazers
 [license-shield]: https://img.shields.io/github/license/darsan012/dependencyInjection-awilix-jest.svg?style=for-the-badge
 [license-url]: https://github.com/darsan012/dependencyInjection-awilix-jest/blob/main/LICENSE
